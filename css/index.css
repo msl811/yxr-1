@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+}
+.pageHead{
+	width: 100%;
+	height: 30px;
+	background-color: #245580;
+	color: #FFFFFF;
+	
+}
+.pageHead div{
+	height: 100%;
+}
+div.btnBack{
+	width: 300px;
+	float: left;
+	line-height: 30px;
+	padding-left: 10px;
+}
+div.btnCart{
+	width: 30px;
+	float: right;
+	background-image: url(../img/icon-gwcc.png);
+	background-size: 24px;
+	background-position: 3px 3px;
+	background-repeat: no-repeat;
+}
+#Title{
+	width: 80%;
+	text-align: center;
+	line-height: 30px;
+}
+/* 指定广告图片的宽高 */
+.pageBody img{
+	width: 100%;
+	height: 100px;
+}
+/* 底部导航栏 */
+body>footer{
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 60px;
+	border-top: 1px solid #666666;
+}
+body>footer ul{
+	height: 100%;
+	margin: 0px;
+}
+body>footer ul li{
+	width: 25%;
+	height: 100%;
+	list-style: none;
+	float: left;
+}
+body>footer ul li div{
+	height: 100%;
+	text-align: center;
+	/* vertical-align: bottom; 垂直对齐方式为底部对齐 */
+	padding-top: 30px;
+}
+body>footer ul li:first-child div{
+	background-image: url(../img/youlun.png);
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	background-position: 50% 5px;
+}
+body>footer ul li:nth-child(2) div{
+	background-image: url(../img/gwc.png);
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	background-position: 50% 5px;
+}
+body>footer ul li:nth-child(3) div{
+	background-image: url(../img/dizhi.png);
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	background-position: 50% 5px;
+}
+body>footer ul li:last-child div{
+	background-image: url(../img/xiaoren.png);
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	background-position: 50% 5px;
+}
